@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: var(--mainfontfamily);
+}
+:root {
+    --mainfontfamily:  "Poppins", sans-serif;
+
+    --fontweight-100: 100;
+    --fontweight-200: 200;
+    --fontweight-300: 300;
+    --fontweight-400: 400;
+    --fontweight-500: 500;
+    --fontweight-600: 600;
+    --fontweight-700: 700;
+    
+}
+header {  
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 6%;
+    height: 70px;
+    background-color: #1d1c1c;
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: var(--fontweight-600);
+}
+.navbar {
+    display: flex;
+   
+}
+sup {
+    font-size: 10px;
+}
+
+.welcome {
+    font-size: 4rem;
+}
+
+.menu-btn {
+    color: #fff;
+    display: none;
+}
+
+.navbar a {
+    margin-left: 60px;
+    color: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: antiquewhite;
+    font-size: 18px;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10rem;
+    color: #fff;
+    padding: 0 10%;
+
+}
+
+.abs {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 60px 10px #000;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(27, 27, 27);
+    min-height: 50vh;
+
+}
+
+.main-text {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 5%;
+}
+
+.subtext {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 5%;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.team  {
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(15, 15, 15);
+    min-height: 70vh;
+}
+
+.redec {
+    text-align: center;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px 30px;
+    border: none;
+    transition: .3s;
+}
+
+.btnredc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.redec:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.rsi {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(8, 8, 8);
+    min-height: 60vh;
+}
+
+.copyright {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    min-height: 20vh;
+    text-align: center;
+}
+
+.copyright p {
+    padding-top: 50px;
+    color: #fff;
+}
